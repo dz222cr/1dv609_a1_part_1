@@ -59,8 +59,8 @@ public class SwedishSocialSecurityNumberTest {
     }
 
     @Test
-    public void noLuhnCheck() {
-        // Arrange
+    public void noLuhhCheck() {
+
         String input = "900101-0017";
 
         when(mockHelper.isCorrectLength(input)).thenReturn(true);
